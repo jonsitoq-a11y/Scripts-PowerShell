@@ -6,7 +6,7 @@
 Add-Type -AssemblyName System.Web
 
 $clientId     = "9a93393f30174a94ae673934761b65ec"
-$clientSecret = "49a82c2ae2b54850b6a3fe4d761cc93a"
+$clientSecret = "TuClientSecret"
 $redirectUri  = "http://127.0.0.1:8888/callback"
 $scopes       = "playlist-read-private playlist-modify-private playlist-modify-public user-top-read user-library-read"
 $tokenFile    = Join-Path $PSScriptRoot "spotify_token.json"
